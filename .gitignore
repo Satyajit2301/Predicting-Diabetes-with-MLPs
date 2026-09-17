@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.pkl.bak
+model_weights.pkl
+
+# PDFs (not needed for deployment)
+*.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Static & templates (old Flask files)
+static/
+templates/
